@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59074760C762870D69B03C9D /* Pods_textureOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B145CE3ED5326136F12B83 /* Pods_textureOnboarding.framework */; };
+		526992802E2E1390B1DEAEAC /* Pods_texture_tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADF93EEC845A5136234BCDC /* Pods_texture_tutorial.framework */; };
 		E5A586422331C2B90027D551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A586412331C2B90027D551 /* AppDelegate.swift */; };
 		E5A586442331C2B90027D551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A586432331C2B90027D551 /* ViewController.swift */; };
 		E5A586492331C2BB0027D551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A586482331C2BB0027D551 /* Assets.xcassets */; };
@@ -25,10 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18B145CE3ED5326136F12B83 /* Pods_textureOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_textureOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A8C4CF773481CF44E5A8DD /* Pods-texture-tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-texture-tutorial.debug.xcconfig"; path = "Target Support Files/Pods-texture-tutorial/Pods-texture-tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		448CE1C568167D6FF8594C21 /* Pods-textureOnboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureOnboarding.release.xcconfig"; path = "Target Support Files/Pods-textureOnboarding/Pods-textureOnboarding.release.xcconfig"; sourceTree = "<group>"; };
+		7264F5D3F73352C48F19D13D /* Pods-texture-tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-texture-tutorial.release.xcconfig"; path = "Target Support Files/Pods-texture-tutorial/Pods-texture-tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		810CC4F973A34D5616F0681A /* Pods-textureOnboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureOnboarding.debug.xcconfig"; path = "Target Support Files/Pods-textureOnboarding/Pods-textureOnboarding.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A5863E2331C2B90027D551 /* textureOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textureOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADF93EEC845A5136234BCDC /* Pods_texture_tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_texture_tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A5863E2331C2B90027D551 /* texture-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "texture-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A586412331C2B90027D551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A586432331C2B90027D551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5A586482331C2BB0027D551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59074760C762870D69B03C9D /* Pods_textureOnboarding.framework in Frameworks */,
+				526992802E2E1390B1DEAEAC /* Pods_texture_tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +63,7 @@
 		8D752F99B114312F5A5BE42C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18B145CE3ED5326136F12B83 /* Pods_textureOnboarding.framework */,
+				8ADF93EEC845A5136234BCDC /* Pods_texture_tutorial.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +73,8 @@
 			children = (
 				810CC4F973A34D5616F0681A /* Pods-textureOnboarding.debug.xcconfig */,
 				448CE1C568167D6FF8594C21 /* Pods-textureOnboarding.release.xcconfig */,
+				20A8C4CF773481CF44E5A8DD /* Pods-texture-tutorial.debug.xcconfig */,
+				7264F5D3F73352C48F19D13D /* Pods-texture-tutorial.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -78,7 +82,7 @@
 		E5A586352331C2B90027D551 = {
 			isa = PBXGroup;
 			children = (
-				E5A586402331C2B90027D551 /* textureOnboarding */,
+				E5A586402331C2B90027D551 /* texture-tutorial */,
 				E5A5863F2331C2B90027D551 /* Products */,
 				BFF18976D2B56977216B9DDA /* Pods */,
 				8D752F99B114312F5A5BE42C /* Frameworks */,
@@ -88,12 +92,12 @@
 		E5A5863F2331C2B90027D551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5A5863E2331C2B90027D551 /* textureOnboarding.app */,
+				E5A5863E2331C2B90027D551 /* texture-tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5A586402331C2B90027D551 /* textureOnboarding */ = {
+		E5A586402331C2B90027D551 /* texture-tutorial */ = {
 			isa = PBXGroup;
 			children = (
 				E5EE7E0A23335D02004E0BB2 /* Helper */,
@@ -105,7 +109,7 @@
 				E5A5864A2331C2BB0027D551 /* LaunchScreen.storyboard */,
 				E5A5864D2331C2BB0027D551 /* Info.plist */,
 			);
-			path = textureOnboarding;
+			path = "texture-tutorial";
 			sourceTree = "<group>";
 		};
 		E5EE7E04233355AE004E0BB2 /* Model */ = {
@@ -158,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5A5863D2331C2B90027D551 /* textureOnboarding */ = {
+		E5A5863D2331C2B90027D551 /* texture-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5A586502331C2BB0027D551 /* Build configuration list for PBXNativeTarget "textureOnboarding" */;
+			buildConfigurationList = E5A586502331C2BB0027D551 /* Build configuration list for PBXNativeTarget "texture-tutorial" */;
 			buildPhases = (
 				B7464C86DCE9C5BF7F7D858B /* [CP] Check Pods Manifest.lock */,
 				E5A5863A2331C2B90027D551 /* Sources */,
@@ -172,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = textureOnboarding;
+			name = "texture-tutorial";
 			productName = textureOnboarding;
-			productReference = E5A5863E2331C2B90027D551 /* textureOnboarding.app */;
+			productReference = E5A5863E2331C2B90027D551 /* texture-tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5A586392331C2B90027D551 /* Build configuration list for PBXProject "textureOnboarding" */;
+			buildConfigurationList = E5A586392331C2B90027D551 /* Build configuration list for PBXProject "texture-tutorial" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -205,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5A5863D2331C2B90027D551 /* textureOnboarding */,
+				E5A5863D2331C2B90027D551 /* texture-tutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +242,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-textureOnboarding-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-texture-tutorial-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -251,15 +255,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-textureOnboarding/Pods-textureOnboarding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-texture-tutorial/Pods-texture-tutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-textureOnboarding/Pods-textureOnboarding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-texture-tutorial/Pods-texture-tutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-textureOnboarding/Pods-textureOnboarding-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-texture-tutorial/Pods-texture-tutorial-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,17 +420,17 @@
 		};
 		E5A586512331C2BB0027D551 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 810CC4F973A34D5616F0681A /* Pods-textureOnboarding.debug.xcconfig */;
+			baseConfigurationReference = 20A8C4CF773481CF44E5A8DD /* Pods-texture-tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = textureOnboarding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/texture-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokopedia.textureOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wendyliga.texture-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,17 +439,17 @@
 		};
 		E5A586522331C2BB0027D551 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 448CE1C568167D6FF8594C21 /* Pods-textureOnboarding.release.xcconfig */;
+			baseConfigurationReference = 7264F5D3F73352C48F19D13D /* Pods-texture-tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = textureOnboarding/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/texture-tutorial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokopedia.textureOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wendyliga.texture-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5A586392331C2B90027D551 /* Build configuration list for PBXProject "textureOnboarding" */ = {
+		E5A586392331C2B90027D551 /* Build configuration list for PBXProject "texture-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A5864E2331C2BB0027D551 /* Debug */,
@@ -464,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5A586502331C2BB0027D551 /* Build configuration list for PBXNativeTarget "textureOnboarding" */ = {
+		E5A586502331C2BB0027D551 /* Build configuration list for PBXNativeTarget "texture-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A586512331C2BB0027D551 /* Debug */,

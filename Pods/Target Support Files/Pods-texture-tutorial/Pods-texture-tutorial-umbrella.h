@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_textureOnboardingVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_textureOnboardingVersionString[];
+FOUNDATION_EXPORT double Pods_texture_tutorialVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_texture_tutorialVersionString[];
 
