@@ -10,10 +10,6 @@ import AsyncDisplayKit
 
 class ViewController: ASViewController<ASDisplayNode> {
     
-    private var posts: [Post] {
-        return Post.generateDummyPosts()
-    }
-    
     private let storyNode: StoryNode
     private let postNode: PostNode
 
